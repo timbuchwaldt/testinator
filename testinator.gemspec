@@ -10,5 +10,4 @@ Gem::Specification.new do |s|
   s.executables << "testinator"
   s.homepage    = 'http://rubygems.org/gems/testinator'
   s.add_runtime_dependency "thor",    ["~> 0.14.0"]
-  s.add_development_dependency('minitest')
 end

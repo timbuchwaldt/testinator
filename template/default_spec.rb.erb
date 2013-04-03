@@ -6,7 +6,7 @@ describe '<%= @app.name %>::default' do
 
   before do
     Fauxhai.mock(platform: 'ubuntu', version: '12.04')
-    Chef::Recipe.any_instance.stub(:search).with(:users, 'groups:sysadmin').and_return({name: 'tim', ssh-key:"asd"})  
+    Chef::Recipe.any_instance.stub(:search).with(:users, 'groups:sysadmin').and_return({name: 'tim', ssh_key:"asd"})  
   end
 
   let(:chef_run){

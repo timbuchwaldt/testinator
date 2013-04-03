@@ -1,0 +1,3 @@
+#!/bin/ruby
+require 'testinator'
+Testinator.start(ARGV)

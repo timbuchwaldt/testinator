@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
   s.name        = 'testinator'
-  s.version     = '0.0.3'
+  s.version     = '0.0.4'
   s.date        = '2013-04-02'
   s.summary     = "Create test for chef cookbooks"
   s.description = "A simple gem to create chef cookbook tests (using chefspec and fauxhai)"

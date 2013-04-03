@@ -14,7 +14,9 @@ class Testinator < Thor
     copy_file 'Gemfile'
     empty_directory 'spec'
     template 'default_spec.rb.erb', 'spec/default_spec.rb'
-    
+    inside(self.destination_root) do
+      run('bundle install')
+    end
   end
 
   def self.source_root

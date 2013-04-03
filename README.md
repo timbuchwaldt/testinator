@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/timbuchwaldt/testinator.png?branch=master)](https://travis-ci.org/timbuchwaldt/testinator)
 #Testinator
 This project is intended to help testing chef cookbooks via [ChefSpec](https://github.com/acrmp/chefspec). 
 
